@@ -1,10 +1,7 @@
 # BB496_Final_Project
 
-# # # # # # # # # # # # # # # # # # # #
-# # # # # # # # # # # # # # # # # # # #  
-# #  BB494 Final Coding Assignment  # #
-# # # # # # # # # # # # # # # # # # # #
-# # # # # # # # # # # # # # # # # # # #
+BB494 Final Coding Assignment
+
 
 @ Douglas Holman
 
