@@ -21,10 +21,6 @@ def pdb_merge(pdb_id1, pdb_id2, file_out_name):
     pdb_id2 --a pdb_id for the second protein strucutre you would like to compare
     file_out -- a string representing the name of the merged pdb id output file you wish to write to (THIS MUST BE A .pdb)
     '''
-    # cmd.fetch(pdb_id1 + '.pdb')
-    # cmd.fetch(pdb_id2 + '.pdb')
-    # cmd.disable(pdb_id1)
-    # cmd.disable(pdb_id2)
     cmd.super(pdb_id1 , pdb_id2, object='alignment1')
     cmd.save('alignment1.pdb')
     cmd.disable('alignment1')
@@ -38,11 +34,6 @@ def pdb_merge(pdb_id1, pdb_id2, file_out_name):
     iterate_cmd = pdb_id1 + ' and name CA'
     cmd.iterate(iterate_cmd, "alignment[resi] = b")
 
-    ### DEBUG
-    # for key in sorted(alignment):
-    #     print '{} {}'.format(key, alignment[key])
-
-    ### DEBUG
     # print the following for debug...
     cmd.save(pdb_id1 + '_mod.pdb', pdb_id1)
     cmd.save('rmsd_b_selection1.pdb', selection1)
