@@ -1,4 +1,4 @@
-# BB496_Final_Project
+# PYMOL automated alignment
 
 BB494 Final Coding Assignment
 
