@@ -26,7 +26,7 @@ run rmsd_b.py
 5. observe the maximum and minimum rmsd and the corresponding pdb IDs that are displayed on the screen for your viewing pleasure and observe the following new files in your directory:
 * best.pdb
 * worst.pdb
-* -best.png
+* best.png
 * worst.png
 
 and two alignment.pdb type files corresponding to your best/worst comparison
